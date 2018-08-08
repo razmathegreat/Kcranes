@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
+import cookie from 'cookie';
 import './App.css';
 
 const TotalCranes = (props) => {
@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src='http://worldartsme.com/images/paper-crane-clipart-1.jpg' className="App-logo"  />
+          <img src='http://worldartsme.com/images/paper-crane-clipart-1.jpg' alt="It's a bird, it's a crane..." className="App-logo"  />
           <h1 className="App-title">1000 Paper Cranes</h1>
         </header>        
         <TotalCranes counter={this.state.counter} />
