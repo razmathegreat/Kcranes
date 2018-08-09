@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import cookie from 'cookie';
+import cookie from 'react-cookie';
 import './App.css';
 
 const TotalCranes = (props) => {
